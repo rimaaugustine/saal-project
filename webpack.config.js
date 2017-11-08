@@ -43,6 +43,8 @@ module.exports = {
     }
   },
   devServer: {
+    inline: true,
+    hot: true,
     historyApiFallback: true,
     noInfo: true,
     overlay: true
