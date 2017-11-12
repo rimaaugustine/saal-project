@@ -1,8 +1,8 @@
 <template>
    <nav class="navbar is-dark">
   <div class="navbar-brand">
-    <a class="navbar-item" >
-      <img src="https://bulma.io/images/bulma-logo.png"  width="112" height="28">
+    <a class="navbar-item" href="/" >
+      <img src="../assets/seel-logo.png"  width="112" height="28">
     </a>
     <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
       <span></span>
@@ -60,3 +60,4 @@
   
 }
 </style>
+

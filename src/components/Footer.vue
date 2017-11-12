@@ -19,11 +19,11 @@
   
 .footer 
 {
-    position: absolute;
+    position: static;
     bottom: 0 ; 
     width: 100%;
     height: 0px;
-    padding: 2rem 1.5rem 2.5rem;
+    padding: 1rem 1.5rem 2.5rem;
     z-index: 0;
 }
 

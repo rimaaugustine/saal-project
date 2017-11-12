@@ -10,6 +10,7 @@ import Login from './Login.vue';
 import SearchAdv from './Components/Search-adv.vue';
 import News from './Components/News.vue';
 import NewsImp from './Components/News-Imp.vue';
+import TutorList from './Components/Tutorial-list.vue';
 
 
 Vue.use(VueRouter);
@@ -19,6 +20,7 @@ Vue.component('app-search', Search );
 Vue.component('app-search-adv', SearchAdv );
 Vue.component('app-news', News );
 Vue.component('app-news-imp', NewsImp );
+Vue.component('app-tutor-list', TutorList );
 
 const routes = [
   {path: '/', component: Home },
